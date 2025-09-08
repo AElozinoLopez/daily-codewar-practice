@@ -16,3 +16,11 @@ function spinWords(string) {
 }
 
 console.log(spinWords("This is the first practice"));
+
+// split(" ") → breaks the string into an array of words.
+
+// map(...) → loops through each word.
+// If the word length is 5 or more, it’s reversed.
+// Otherwise, it stays the same.
+
+// join(" ") → puts the words back into a single string.
