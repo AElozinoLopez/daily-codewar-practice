@@ -10,9 +10,9 @@ function spinWords(string) {
   return string
     .split(" ")
     .map((word) =>
-      word.length >= 5 ? word.split(" ").reverse().join("") : word
+      word.length >= 5 ? word.split("").reverse().join("") : word
     )
-    .join("");
+    .join(" ");
 }
 
 console.log(spinWords("This is the first practice"));
