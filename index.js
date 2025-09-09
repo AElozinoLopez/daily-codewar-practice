@@ -39,3 +39,6 @@ console.log(spinWords("This is the first practice"));
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
 // Solution
+function disemvowel(str) {
+  return str;
+}
