@@ -6,6 +6,8 @@
 // Strings passed in will consist of only letters and spaces. S
 // paces will be included only when more than one word is present.
 
+// Solution
+
 function spinWords(string) {
   return string
     .split(" ")
@@ -24,3 +26,16 @@ console.log(spinWords("This is the first practice"));
 // Otherwise, it stays the same.
 
 // join(" ") → puts the words back into a single string.
+
+// Practice 2
+
+// Trolls are attacking your comment section!
+
+// A common way to deal with this situation is to remove all of the vowels from the trolls' comments,
+// neutralizing the threat.
+
+// Your task is to write a function that takes a string and return a new string with all vowels removed.
+
+// For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+
+// Solution
