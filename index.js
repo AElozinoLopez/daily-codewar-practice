@@ -40,14 +40,7 @@ console.log(spinWords("This is the first practice"));
 
 // Solution
 function disemvowel(str) {
-  const vowels = "aeiou";
-  const lowerStr = str.toLowerCase(); // To convoert all the string to lowercase
-
-  for (let char of lowerStr) {
-    if (vowels.includes(char)) {
-      return char.delete(vowels);
-    }
-  }
-  // return str;
+  return str.replace(/[aeiou/AEIOU]/g, "");
 }
-disemvowel("This website is terrible!");
+
+console.log(disemvowel("This website is terrible!"));
