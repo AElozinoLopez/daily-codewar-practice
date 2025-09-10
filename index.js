@@ -57,8 +57,13 @@ console.log(disemvowel("This website is terrible!"));
 // If anything in the text isn't a letter, ignore it and don't return it.
 
 // Soluiton
-const givenStr = "This is practice 3";
+function alphabetPosition(text) {
+  return text
+    .toLowerCase()
+    .split("")
+    .filter((char) => char >= "a" && char <= "z") // keeps only letters
+    .map((char) => char.charCodeAt(0) - 96) // a is 97
+    .join(" ");
+}
 
-const givenStrPosition = givenStr.split("");
-
-console.log(givenStrPosition);
+console.log(alphabetPosition("This is practice 3"));
