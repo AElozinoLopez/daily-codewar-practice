@@ -67,3 +67,4 @@ function alphabetPosition(text) {
 }
 
 console.log(alphabetPosition("This is practice 3"));
+console.log(alphabetPosition("is 3 768 768 555 a go"));
