@@ -27,7 +27,7 @@ console.log(spinWords("This is the first practice"));
 
 // join(" ") → puts the words back into a single string.
 
-// Practice 2
+// PRACTICE 2
 
 // Trolls are attacking your comment section!
 
@@ -44,3 +44,13 @@ function disemvowel(str) {
 }
 
 console.log(disemvowel("This website is terrible!"));
+
+// /[aeiouAEIOU]/g is a regular expression that matches all vowels (both lowercase and uppercase).
+// .replace(..., '') removes them by replacing each match with an empty string.
+
+// PRACTICE 3
+// In this exercise you are required to, given a string, replace every letter with its position in the alphabet.
+// If anything in the text isn't a letter, ignore it and don't return it.
+
+// Soluiton
+const givenStr = "This is practice 3";
