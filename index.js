@@ -82,5 +82,7 @@ console.log(alphabetPosition("is 3 768 768 555 a go"));
 
 // Solution
 function rowSumOddNumbers(n) {
-  // TODO
+  return n ** 3;
 }
+
+console.log(rowSumOddNumbers(1));
