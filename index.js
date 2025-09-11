@@ -81,8 +81,22 @@ console.log(alphabetPosition("is 3 768 768 555 a go"));
 // (starting at index 1)
 
 // Solution
+// The sum of the numbers in the nth row is always n³
+
+// For example:
+
+// Row 1 → 1 = 1³
+
+// Row 2 → 3 + 5 = 8 = 2³
+
+// Row 3 → 7 + 9 + 11 = 27 = 3³
+
+// Row 4 → 13 + 15 + 17 + 19 = 64 = 4³
+
+// So the formula is n³
+
 function rowSumOddNumbers(n) {
-  return n ** 3;
+  return n ** 3; // Math.pow(n, 3)
 }
 
 console.log(rowSumOddNumbers(1));
