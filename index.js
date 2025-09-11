@@ -68,3 +68,19 @@ function alphabetPosition(text) {
 
 console.log(alphabetPosition("This is practice 3"));
 console.log(alphabetPosition("is 3 768 768 555 a go"));
+
+//////////////////////////////////////////////////////
+// PRACTICE 3
+// Given the triangle of consecutive odd numbers:
+//              1
+//           3     5
+//        7     9    11
+//    13    15    17    19
+// 21    23    25    27    29
+// Calculate the sum of the numbers in the nth row of this triangle
+// (starting at index 1)
+
+// Solution
+function rowSumOddNumbers(n) {
+  // TODO
+}
