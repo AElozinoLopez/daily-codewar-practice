@@ -128,6 +128,4 @@ function divisors(integer) {
   return output.lenght ? result : `${integer} is prime`;
 }
 
-const output = divisors(12);
-
-console.log(output);
+console.log(divisors(12));
