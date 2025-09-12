@@ -114,3 +114,6 @@ console.log(rowSumOddNumbers(5));
 // divisors(12) --> [2, 3, 4, 6]
 // divisors(25) --> [5]
 // divisors(13) --> "13 is prime"
+
+// Solution
+function divisors(integer) {}
