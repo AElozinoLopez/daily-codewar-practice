@@ -105,7 +105,7 @@ console.log(rowSumOddNumbers(5));
 
 ////////////////////////////////////////////////////////////////////
 // Practice 4
-// Create a function named divisors/Divisors that takes an integer n > 1
+// Create a function named divisors that takes an integer (n > 1)
 // and returns an array with all of the integer's divisors(except for 1 and
 // the number itself), from smallest to largest. If the number is prime return
 // the string '(integer) is prime'
@@ -116,4 +116,9 @@ console.log(rowSumOddNumbers(5));
 // divisors(13) --> "13 is prime"
 
 // Solution
-function divisors(integer) {}
+function divisors(integer) {
+  const output = [];
+  for (i > 1; i % n === 0; i++) output.push(n);
+  return output;
+  return "(integer) is prime";
+}
