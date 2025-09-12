@@ -120,7 +120,11 @@ function divisors(integer) {
   const n = integer;
   const output = [];
 
-  for (let i = 2; i < n; i++) output.push(n);
+  for (let i = 2; i < n; i++) {
+    if (n % i === 0) {
+      output.push(i);
+    }
+  }
   return output;
   return "(integer) is prime";
 }
