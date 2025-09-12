@@ -117,8 +117,12 @@ console.log(rowSumOddNumbers(5));
 
 // Solution
 function divisors(integer) {
+  const i = integer;
+  const n = divisors;
   const output = [];
   for (i > 1; i % n === 0; i++) output.push(n);
   return output;
   return "(integer) is prime";
 }
+
+const output = divisors(12);
