@@ -125,8 +125,7 @@ function divisors(integer) {
       output.push(i);
     }
   }
-  return output;
-  return "(integer) is prime";
+  return output.lenght ? result : `${integer} is prime`;
 }
 
 const output = divisors(12);
