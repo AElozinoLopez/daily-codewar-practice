@@ -3,8 +3,8 @@
 //Write a function that takes in a string of one or more words,
 // and returns the same string, but with all words that have five
 // or more letters reversed (Just like the name of this Kata).
-// Strings passed in will consist of only letters and spaces. S
-// paces will be included only when more than one word is present.
+// Strings passed in will consist of only letters and spaces.
+// Spaces will be included only when more than one word is present.
 
 // Solution
 
@@ -35,9 +35,7 @@ console.log(spinWords("This is the first practice"));
 
 // A common way to deal with this situation is to remove all of the vowels from the trolls' comments,
 // neutralizing the threat.
-
 // Your task is to write a function that takes a string and return a new string with all vowels removed.
-
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
 // Solution
@@ -104,3 +102,15 @@ console.log(rowSumOddNumbers(2));
 console.log(rowSumOddNumbers(3));
 console.log(rowSumOddNumbers(4));
 console.log(rowSumOddNumbers(5));
+
+////////////////////////////////////////////////////////////////////
+// Practice 4
+// Create a function named divisors/Divisors that takes an integer n > 1
+// and returns an array with all of the integer's divisors(except for 1 and
+// the number itself), from smallest to largest. If the number is prime return
+// the string '(integer) is prime'
+
+// Examples
+// divisors(12) --> [2, 3, 4, 6]
+// divisors(25) --> [5]
+// divisors(13) --> "13 is prime"
