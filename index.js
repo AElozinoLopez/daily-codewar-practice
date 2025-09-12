@@ -144,3 +144,9 @@ function divisors(n) {
 }
 
 console.log(divisors(12));
+
+// Start looping from 2 (since 1 is excluded) up to n - 1 (since n itself is excluded).
+
+// Collect all numbers that divide n evenly (n % i === 0).
+
+// If no divisors are found, return the string "<n> is prime".
