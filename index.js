@@ -126,3 +126,5 @@ function divisors(integer) {
 }
 
 const output = divisors(12);
+
+console.log(output);
