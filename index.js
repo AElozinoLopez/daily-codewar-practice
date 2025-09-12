@@ -116,16 +116,16 @@ console.log(rowSumOddNumbers(5));
 // divisors(13) --> "13 is prime"
 
 // Solution
-function divisors(integer) {
-  const n = integer;
-  const output = [];
+function divisors(n) {
+  // const n = integer;
+  const result = [];
 
   for (let i = 2; i < n; i++) {
     if (n % i === 0) {
-      output.push(i);
+      result.push(i);
     }
   }
-  return output.lenght ? result : `${integer} is prime`;
+  return result.lenght ? result : `${integer} is prime`;
 }
 
 console.log(divisors(12));
