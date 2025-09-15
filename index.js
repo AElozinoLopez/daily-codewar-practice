@@ -126,7 +126,7 @@ function divisors(integer) {
     }
   }
   // return result.length ? result : `${n} is prime`;
-  return result.length ? result : "(integer) is prime";
+  return result.length ? result : `${n} is prime`;
 }
 
 console.log(divisors(13));
