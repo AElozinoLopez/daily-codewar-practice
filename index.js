@@ -125,10 +125,11 @@ function divisors(integer) {
       result.push(i);
     }
   }
-  return result.length ? result : `${n} is prime`;
+  // return result.length ? result : `${n} is prime`;
+  return result.length ? result : "(integer) is prime";
 }
 
-console.log(divisors(12));
+console.log(divisors(13));
 
 // Start looping from 2 (since 1 is excluded) up to n - 1 (since n itself is excluded).
 
