@@ -151,4 +151,8 @@ console.log(divisors(13));
 // If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 
 // Solution
-function arrayDiff(a, b) {}
+function arrayDiff(a, b) {
+  return a.filter((item) => !b.includes(item));
+}
+
+console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
