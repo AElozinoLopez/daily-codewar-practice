@@ -156,3 +156,8 @@ function arrayDiff(a, b) {
 }
 
 console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
+
+// This function does the following
+// Preserves the order of elements in a.
+// Removes all occurrences of elements in b.
+// Works with numbers, strings, or any comparable values.
