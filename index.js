@@ -170,3 +170,8 @@ console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
 // Requirements
 // You can assume you will be given an integer input.
 // You can not assume that the integer will be only positive. You may be given negative numbers as well ( or 0 ).
+
+// Examples
+// is_prime(1)  /* false */
+// is_prime(2)  /* true  */
+// is_prime(-1) /* false */
