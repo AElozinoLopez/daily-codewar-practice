@@ -161,3 +161,8 @@ console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
 // Preserves the order of elements in a.
 // Removes all occurrences of elements in b.
 // Works with numbers, strings, or any comparable values.
+
+//  Practice 6
+// Define a function that takes an integer argument and returns a logical value true or false depending on if the integer is a prime.
+
+// Per Wikipedia, a prime number ( or a prime ) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
