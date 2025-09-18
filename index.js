@@ -177,8 +177,7 @@ console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
 // is_prime(-1) /* false */
 
 function isPrime(num) {
-  // let n = `is_Prime(${num})`;
-  num % 2 === 0 ? true : false;
+  // return num % 2 === 0 ? true : false;
 }
 
-console.log(isPrime(2));
+console.log(isPrime(4));
