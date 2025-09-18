@@ -177,6 +177,14 @@ console.log(arrayDiff([1, 2, 3, 4, 5], [3, 4]));
 // is_prime(-1) /* false */
 
 function isPrime(num) {
+  if (num <= 1) return false; // 0 and 1 and negative numbers are not prime
+  if (num === 2) return true;
+  if (num % 2 === 0) return false; // to eliminate even numbers > 2
+
+  for (let i = 3; i <= Math.sqrt(num); i += 2) {
+    if (n % i === 0) return false; // divisible by a smaller number
+  }
+  return true;
   // return num % 2 === 0 ? true : false;
 }
 
