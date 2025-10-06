@@ -203,5 +203,5 @@ function countBits(n) {
   return n
     .toString(2) // To convert the number to binary (base 2)
     .split(" ") // To split binary to individaul bits
-    .filter((bit) => bit === "1").length; // Keep only '1's // To count how many wants there are
+    .filter((bit) => bit === "1").length; // .filter is to keep only '1's and // .length is to count how many wants there are
 }
