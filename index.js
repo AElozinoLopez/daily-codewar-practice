@@ -206,6 +206,16 @@ function countBits(n) {
     .filter((bit) => bit === "1").length; // .filter is to keep only '1's and // .length is to count how many wants there are
 }
 
-console.log(countBits(1234));
+console.log(countBits(24));
 
 // Solution 2
+// This solution is purely bitwise solution, that is, no string conversion
+
+function countBit(n) {
+  let count = 0;
+  while (n > 0) {
+    count += n & 1; // To add 1 if the last bit is 1
+    n >>= 1; // to right shift the bits
+  }
+  return count;
+}
