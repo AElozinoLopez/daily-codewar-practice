@@ -219,3 +219,5 @@ function countBit(n) {
   }
   return count;
 }
+
+console.log(countBit(24));
