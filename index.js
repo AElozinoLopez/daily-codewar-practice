@@ -198,10 +198,14 @@ console.log(isPrime(4));
 
 // Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
-// Solution
+// Solution 1
 function countBits(n) {
   return n
     .toString(2) // To convert the number to binary (base 2)
-    .split(" ") // To split binary to individaul bits
+    .split("") // To split binary to individaul bits
     .filter((bit) => bit === "1").length; // .filter is to keep only '1's and // .length is to count how many wants there are
 }
+
+console.log(countBits(1234));
+
+// Solution 2
